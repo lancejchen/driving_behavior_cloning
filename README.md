@@ -3,7 +3,7 @@ Show your car how to drive in the simulator. It will learn, then drive autonomou
 
 You can see the demostration video on [YouKu(优酷)](http://t.cn/RxGQ04m) or on [YouTube](https://youtu.be/MV6ncz5suBQ) by click the gif below.
 
-[![Demo CountPages alpha](https://j.gifs.com/qj56Zp.gif)](https://youtu.be/MV6ncz5suBQ)
+[![Demo CountPages alpha](./img/drive.gif)](https://youtu.be/MV6ncz5suBQ)
 
 Download Simulator (Provided by [Udacity](https://www.udacity.com/)) here: 
 * [Linux](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f0f7_simulator-linux/simulator-linux.zip)
@@ -27,6 +27,8 @@ Optional but highly recommended (Accelerate training 5~10x, but a NVIDIA GPU is 
 * cuDNN
 
 ## How to run
+* Run the simulator from above link. After a new GUI window opens, choose Screen resolution to be 640 X 480 and 
+Fastest for the Graphics Quality, click OK. In next window, click on 'AUTONOMOUS MODE'.
 * Download the repository.
 * Run: *python drive.py model.json*
     * Once the simulator opens, choose autonomous mode for self-driving, or train mode if you want to play around and
@@ -58,8 +60,7 @@ data into a h5 file. (Script used for this step: ./image_angle_to_h5.py)
     to feed all training data into memory)
     * Define a regression CNN model with normalization layers, cnn layers, fully connected layers, regularization layers 
     (dropout) activation layers etc.
-        * Used CNN model described in this [paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) 
-        from NVIDIA as base model. 
+        * Build a base CNN model. 
         * Add dropout layer to the base model to prevent over-fitting. 
         * Revised the base model to 3 different models used to train and test. The 3 models are listed in 
         convnet_pipeline_gym.ipynb
