@@ -1,6 +1,8 @@
 ## Behavior Cloning for Self Driving Car
 Show your car how to drive in the simulator. It will learn, then drive autonomously.
 
+[![Demo CountPages alpha](https://j.gifs.com/qj56Zp.gif)](https://youtu.be/MV6ncz5suBQ)
+
 Download Simulator (Provided by [Udacity](https://www.udacity.com/)) here: 
 * [Linux](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f0f7_simulator-linux/simulator-linux.zip)
 * [macOS](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f290_simulator-macos/simulator-macos.zip)
