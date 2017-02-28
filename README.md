@@ -1,7 +1,7 @@
 ## Behavior Cloning for Self Driving Car
 Show your car how to drive in the simulator. It will learn, then drive autonomously.
 
-You can see the demostration video on [YouKu(优酷)](http://t.cn/RxGQ04m) or on [YouTube](https://youtu.be/MV6ncz5suBQ) by click the gif below.
+You can see the demonstration video on [YouKu(优酷)](http://t.cn/RxGQ04m) or on [YouTube](https://youtu.be/MV6ncz5suBQ) by click the gif below.
 
 [![Demo CountPages alpha](./img/drive.gif)](https://youtu.be/MV6ncz5suBQ)
 
